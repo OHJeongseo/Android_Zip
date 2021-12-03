@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- 실습 10-3 로그캣(예기치 못한 오류가 발생할때  원인을 찾기 위해서 log 남긴다,
+    그것을 보여주는 화면) 을 이용한 엑티비티 생명주기 확인하기 -->
+    <Button
+        android:id="@+id/btnTel"
+        android:text="전화 걸기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnEnd"
+        android:text="끝내기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

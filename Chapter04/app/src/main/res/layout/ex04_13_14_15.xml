@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<!--visibility 속성 -->
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="버튼" />
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="invisible"
+      android:text="invisible" />
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="visible"
+      android:text="visible" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="gone"
+      android:visibility="gone"/>
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="버튼" />
+
+
+
+<!--enabled, clickable -->
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="버튼" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:enabled="false"
+      android:text="버튼:enabled"/>
+
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:text="버튼:clickable" />
+
+
+<!--rotation -->
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:clickable="false"
+      android:rotation="45"
+      android:text="버튼:rotation" />
+
+
+
+
+
+
+</LinearLayout>

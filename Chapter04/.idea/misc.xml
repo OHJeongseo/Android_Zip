@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_01.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_02.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_02_03_04.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_03.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_04.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_05.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_05_06.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_06.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_07.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_07_08.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_08.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_08_09.xml" value="0.15" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_09.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_10.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_10_11.xml" value="0.15" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_11.xml" value="0.15" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_11_12.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_13.xml" value="0.15" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_13_14_15.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_16.xml" value="0.15" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_16_17_18.xml" value="0.16621376811594202" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_19.xml" value="0.10597826086956522" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_24.xml" value="0.1515625" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_24_25_26.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_27.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_28.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter04/app/src/main/res/layout/ex04_98.xml" value="0.16621376811594202" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

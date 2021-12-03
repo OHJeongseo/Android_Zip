@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 뷰 컨테이너 :주로 다른 위젯을 담는 컨테이너 역활-->
+    <!--슬라이딩드로어-->
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="여기는 서랍 밖입니다"/>
+
+    <!--handle 속성에 지정된 이름과 슬라이딩드로어의 손잡이 역활을 하는 버튼 id가 동일해야한다 -->
+    <!--content 속성에 지정된 이름과 리니어레이아웃(content(서랍내부를 정의) 설정)의 id가 동일해야한다 -->
+    <SlidingDrawer
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="서랍 손잡이"/>
+
+       <LinearLayout
+           android:id="@+id/content"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:background="#00ff00">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="여기는 서랍 안입니다"/>
+       </LinearLayout>
+
+    </SlidingDrawer>
+</LinearLayout>

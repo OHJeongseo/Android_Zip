@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!-- 어뎁터뷰.갤러리: 사진이나 이미지를 배치하고 좌우로 스크롤하여 볼수있게 한다 -->
+    <Gallery
+        android:id="@+id/gallery01"
+        android:spacing="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- spacing 이미지 여백 설정-->
+    <ImageView
+        android:padding="20dp"
+        android:id="@+id/iPoster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

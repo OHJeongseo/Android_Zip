@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#6200EE">
+
+<!--    android:background="#ff0000" 빨간색(레이아웃)-->
+<!--    android:src="@drawable/btn_star_big_on" 이미지(별모양) -->
+    <!--토스트용 xml -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/q10"/>
+    <TextView
+        android:id="@+id/toastTextView"
+        android:textSize="30dp"
+        android:text="Text View"
+        android:textColor="#00fff0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/q10"/>
+</LinearLayout>

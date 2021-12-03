@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--직접 풀어보기 5-4 렐레티브레아웃 사용    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit01"
+        android:id="@+id/text01"
+        android:text="전화번호"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit01"
+        android:layout_toRightOf="@+id/text01"
+        android:textSize="25dp"
+        android:hint="000-000-0000" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit01"
+        android:layout_toLeftOf="@+id/Btn02"
+        android:text="입력" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Btn02"
+        android:layout_alignRight="@+id/edit01"
+        android:layout_below="@+id/edit01"
+        android:text="취소" />
+
+
+</RelativeLayout>

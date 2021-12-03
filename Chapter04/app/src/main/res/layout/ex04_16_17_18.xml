@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<!--textView 속성 -->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="testSize속성"
+      android:textSize="30dp"/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="testColor속성"
+      android:textColor="#00FF00"
+      android:textSize="30dp"/>
+
+  <!-- 굵게&기울기-->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="testStype속성"
+      android:textSize="30dp"
+      android:textStyle="bold|italic"/>
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="typeface 속성"
+      android:textSize="30dp"
+      android:typeface="serif"/>
+
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:singleLine="true"
+      android:text="singleLine 속성 singleLine 속성 singleLine 속성"
+      android:textSize="30dp"/>
+
+
+
+<!--자바파일 textView 설정-->
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView 연습1"/>
+
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView 연습1"/>
+
+
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="TextView 연습1"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

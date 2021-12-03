@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--브로드캐스트 리시버
+    실습14-2 베터리 상태 체크앱 만들기-->
+    <ImageView
+        android:id="@+id/iBattery"
+        android:layout_gravity="center"
+        android:src="@drawable/battery_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/eBattery"
+        android:enabled="false"
+        android:textColor="#FFFFFF"
+        android:background="#00FF00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

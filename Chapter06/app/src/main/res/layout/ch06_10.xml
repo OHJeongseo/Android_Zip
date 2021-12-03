@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--자동완성텍스트뷰: 사용자가 단어의 일부만 입력해도 자동완성(1개의 단어) -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:hint="자동완성텍스트뷰"/>
+
+<!--멀티완성텍스트뷰: 쉼표(.)로 구분하여 여러개의 단어가 자동완성, 주로 java 코드에서
+ 배열로 설정, setAdapter()메소드 이용-->
+    <MultiAutoCompleteTextView
+        android:id="@+id/MultiAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="선택하세요"
+        android:completionThreshold="2"
+        android:hint="멀티자동완성텍스트뷰" />
+
+
+</LinearLayout>

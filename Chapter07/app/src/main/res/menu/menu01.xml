@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--메뉴:사용자가 여러개 중 하나를 선택하도록 하여  사용자의 명령을 받아들이는
+간편한 방식, 옵셥메뉴(option menu)와 컨텍스트 메뉴(context menu)로 구분된다-->
+
+<!-- xml 을 이용한 옵션메뉴
+    1. 메뉴폴더 생성 및 메뉴 xml 파일 생성 및 편집 "메뉴 코딩"
+    2. java 코드 작성(onCreateOptionsMenu()메서드 오버라이딩) "메뉴 파일 등록"
+    3. java 코드 작성(onOptionsItemSelected()메서드 오버라이딩) "메뉴 선택시 동작할 내용 코딩"-->
+<!-- 옵션 메뉴 : 메뉴항목 추가-->
+    <item
+        android:id="@+id/iRed"
+        android:title="배경색(빨강)" />
+    <item
+        android:id="@+id/iGreen"
+        android:title="배경색(초록)" />
+    <item
+        android:id="@+id/iBlue"
+        android:title="배경색(파랑)" />
+
+    <!--옵션메뉴 : 서브 메뉴 사용, 서브 메뉴항목 추가 -->
+    <item android:title="버튼 변경>>">
+        <menu>
+            <item
+                android:id="@+id/sRotate"
+                android:title="버튼 45도 회전" />
+            <item
+                android:id="@+id/sSize"
+                android:title="버튼 2배 확대" />
+        </menu>
+    </item>
+
+</menu>

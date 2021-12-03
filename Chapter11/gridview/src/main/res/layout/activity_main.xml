@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--어뎁터뷰.그리드뷰: 사진이나 그림을 격자모양으로 배치 -->
+    <GridView
+        android:id="@+id/gridView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"> <!--그리드뷰 4열 설정-->
+
+    </GridView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/api30"
+    android:foregroundGravity="center|fill_horizontal"
+    >
+
+<!--프레임레이아웃: 레이아웃 안의 위젯을 왼쪽 상단부터 겹쳐서 출력, 레이아웃 그자체를 사용하기 보다
+ 탭 위젯등과 혼용할때 유용 / foreground(전경이미지 지정), foregroundGravity(전경이미지 위치지정)-->
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+</FrameLayout>

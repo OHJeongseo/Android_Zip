@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--테이블레이아웃(표 형태로 배치할대 주로 사용), 속성:layout_span, layout_column,stretchColumn -->
+    <TableRow>
+        <Button
+           android:layout_width="60dp"
+            android:text="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_span="2"
+            android:text="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:text="3" />
+    </TableRow>
+
+    <!--layout_column 번호를 설정하면 설정한 번호의 칸으로 시작되거나(처음작성시)
+     설정한 번호에 배치된다-->
+    <TableRow>
+        <Button
+            android:layout_column="1"
+            android:layout_width="60dp"
+            android:text="4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:text="5" />
+
+        <Button
+            android:layout_width="60dp"
+            android:text="6" />
+    </TableRow>
+
+
+</TableLayout>

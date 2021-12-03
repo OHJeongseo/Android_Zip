@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/app/src/main/res/layout/activity_main.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/app/src/main/res/layout/ch07_01.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/app/src/main/res/layout/ch07_1.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/app/src/main/res/menu/menu01.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/app/src/main/res/menu/meun02.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/content_menu/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/content_menu/src/main/res/layout/ch07_7.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/content_menu/src/main/res/menu/menu001.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/content_menu/src/main/res/menu/menu01.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/content_menu/src/main/res/menu/menu02.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/dialog/src/main/res/layout/activity_main.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/dialog/src/main/res/layout/ch07_14.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/relativelayout_opion/src/main/res/drawable/ic_launcher_background.xml" value="0.1953125" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/relativelayout_opion/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/relativelayout_opion/src/main/res/layout/ch07_01.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/relativelayout_opion/src/main/res/menu/menu003.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/toast/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/toast/src/main/res/layout/actvity_main01.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/wjdtj/AndroidStudioProjects/Chapter07/toast/src/main/res/layout/ch07_12.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

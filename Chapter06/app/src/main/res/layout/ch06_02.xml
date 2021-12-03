@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 직접 풀어보기 6-2-->
+    <!-- 뷰 컨테이너 :주로 다른 위젯을 담는 컨테이너 역활-->
+    <!--뷰플리퍼: 차례대로 다음아나 이전화면을 보여주는 기능-->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:layout_weight="1"
+           android:layout_margin="3dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/bStart"
+           android:text="사진보기 시작" />
+       <Button
+           android:layout_weight="1"
+           android:layout_margin="3dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/bStop"
+           android:text="사진보기 정지" />
+   </LinearLayout>
+    <ViewFlipper
+        android:id="@+id/vFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lollipop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/kitkat" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/jellybean" />
+
+    </ViewFlipper>
+</LinearLayout>

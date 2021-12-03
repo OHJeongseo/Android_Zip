@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.webview_01">
+
+<!--인터넷을 사용할수있는 퍼미션 지정    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+<!--앱에 대한 전체정보 설정 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_new_image_01"
+        android:label="쿡북 웹브라우저"
+        android:roundIcon="@mipmap/ic_new_image_01"
+        android:theme="@style/Theme.Chapter06_02">
+        <activity
+            android:name=".MainActivity"
+            android:label="간단 웹브라우저"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0"
+    tools:context=".ResultActivity">
+<!--직접 풀어보기 10-2  -->
+    <TableRow>
+        <TextView
+            android:id="@+id/textMax"
+            android:layout_span="2"
+            android:textSize="30dp"
+            android:text="그림이름"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imageMax"
+            android:src="@drawable/pic1"
+            android:layout_gravity="center"
+            android:layout_span="2" />
+    </TableRow>
+
+<!-- 실습 10-2 명화 선호드 투표 앱 만들기   -->
+    <TableRow>
+        <TextView
+            android:id="@+id/text01"
+            android:layout_gravity="center_vertical"
+            android:text="그림1"
+            android:textSize="15dp"/>
+        <RatingBar
+            android:id="@+id/rBar01"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_gravity="right"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text02"
+            android:layout_gravity="center_vertical"
+            android:text="그림2"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar02"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text03"
+            android:layout_gravity="center_vertical"
+            android:text="그림3"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar03"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text04"
+            android:layout_gravity="center_vertical"
+            android:text="그림4"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar04"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text05"
+            android:layout_gravity="center_vertical"
+            android:text="그림5"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar05"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text06"
+            android:layout_gravity="center_vertical"
+            android:text="그림6"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar06"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text07"
+            android:layout_gravity="center_vertical"
+            android:text="그림7"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar07"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text08"
+            android:layout_gravity="center_vertical"
+            android:text="그림2"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar08"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/text09"
+            android:layout_gravity="center_vertical"
+            android:text="그림2"
+            android:textSize="15dp"/>
+
+        <RatingBar
+            android:id="@+id/rBar09"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_gravity="right" />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_span="2"
+            android:text="돌아가기"
+            android:textSize="15dp"
+            />
+    </TableRow>
+</TableLayout>

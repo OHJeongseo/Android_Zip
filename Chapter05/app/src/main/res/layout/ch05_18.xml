@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="2">
+
+<!--그리드레이아웃(테이블 레이아웃과 마찬가지로 표 형태로 배치할때 사용하며 기능을 더 가지고 있다
+ 속성:rowCount(행의수),columnCount(열의수),orientation(우선방향:수평,수직), layout_row(자기위치 행번호
+ ), layout_column(자기위치의 열번호),layout_rowSpan(행 수만큼(지정된)확장, layout_columnSpan
+ (열 수만큼(지정된) 확장) layout_gravity(fill, fill_horizontal 등을 지정 Span 으로 확장
+ (열,행)되었을때 위쳇을 확장된 셀에 꽉채우는 효과를 낸다)-->
+
+        <!--rowSpan=> layout_gravity=fill_vertical -->
+        <Button
+            android:layout_column="0"
+            android:layout_gravity="fill_vertical"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:text="1" />
+
+        <!--columnSpan=> layout_gravity=fill_horizontal -->
+        <Button
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="0"
+            android:layout_columnSpan="2"
+            android:text="2" />
+
+        <Button
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="3" />
+
+
+
+
+        <Button
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="4" />
+
+
+
+        <Button
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="5" />
+
+        <Button
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="6" />
+
+
+
+</GridLayout>

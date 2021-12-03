@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+<!--컴파운트 버튼(체크박스) -->
+  <CheckBox
+      android:id="@+id/android"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="안드로이드폰"
+      android:checked="true"
+    />
+
+  <CheckBox
+      android:id="@+id/iphone"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="아이폰"
+      android:checked="false"
+      />
+
+
+  <CheckBox
+      android:id="@+id/window"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="윈도폰"
+      android:checked="true"
+      />
+
+
+<!--라디오 그룹(라디오그룹)-->
+  <RadioGroup
+      android:id="@+id/Group1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/radio0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="남성" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여성" />
+
+
+  </RadioGroup>
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="성별선택" />
+
+
+  <RadioButton
+      android:id="@+id/woman"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="여성" />
+
+  <RadioButton
+      android:id="@+id/man"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="남성" />
+
+
+</LinearLayout>

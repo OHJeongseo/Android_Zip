@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="숫자1"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="숫자2"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/BtnAdd"
+        android:text="더하기"/>
+
+    <Button
+        android:id="@+id/BtnSub"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="빼기"/>
+
+    <Button
+        android:id="@+id/BtnMul"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="곱하기"/>
+
+    <Button
+        android:id="@+id/BtnDiv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="나누기"/>
+
+    <Button
+        android:id="@+id/BtnRem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="나머지"/>
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="계산결과: "
+        android:textColor="#00ff00"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>

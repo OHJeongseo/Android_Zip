@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--메뉴:사용자가 여러개 중 하나를 선택하도록 하여  사용자의 명령을 받아들이는
+    간편한 방식, 옵셥메뉴(option menu)와 컨텍스트 메뉴(context menu)로 구분된다-->
+    <!-- 컨텍스트 메뉴 -->
+
+<!-- xml 이용한 켄택스트 메뉴
+    1. 메뉴 폴더 생성 및 위젯의 메뉴 xml 파일 생성 및 편집 "메뉴 코딩"
+    2. java 코드 작성(onCreate() 안에 registerForContextMenu()로 등록) "메뉴로 사용할 위젯 등록"
+    3. java 코드 작성(onCreateContextMenu() 메서드 오버라이딩) "메뉴 파일 등록"
+    4. java 코드 작성(onContextItemSelected() 메서드 오버라이딩) "메뉴 선택시 동작할 내용 코딩" -->
+    <item
+        android:id="@+id/Red"
+        android:title="배경색(빨강)" />
+    <item
+        android:id="@+id/Green"
+        android:title="배경색(초록)" />
+    <item
+        android:id="@+id/Blue"
+        android:title="배경색(파랑)" />
+</menu>

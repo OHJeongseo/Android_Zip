@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--메뉴:사용자가 여러개 중 하나를 선택하도록 하여  사용자의 명령을 받아들이는
+    간편한 방식, 옵셥메뉴(option menu)와 컨텍스트 메뉴(context menu)로 구분된다-->
+
+    <!-- 컨텍스트 메뉴 -->
+    <item
+        android:id="@+id/Rotate"
+        android:title="버튼 45도 회전" />
+    <item
+        android:id="@+id/Size"
+        android:title="버튼 2배 확대" />
+</menu>
